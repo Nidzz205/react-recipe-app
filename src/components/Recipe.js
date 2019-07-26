@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
-import RecipeList from "../components/RecipeList";
-import Search from '../components/Search'
+import React, { Component } from "react";
 
 export default class Recipe extends Component {
-    render() {
-        return 
-        <>
-        <Search />
-        <RecipeList />
-        </>
-        )
-    }
+  render() {
+    return <div>hello from recipe</div>;
+  }
+}
